@@ -1,15 +1,50 @@
+# Online Course App – Assessment Feature
 
-**General Notes**
+An enhanced Django-based online course platform that allows instructors to create exams and learners to submit and view their results.
 
-An `onlinecourse` app has already been provided in this repo upon which you will be adding a new assesement feature.
+---
 
-- If you want to develop the final project on Theia hosted by [IBM Developer Skills Network](https://labs.cognitiveclass.ai/), you will need to create the same project structure on Theia workspace and save it everytime you close the browser
-- Or you could develop the final project locally by setting up your own Python runtime and IDE
-- Hints for the final project are left on source code files
-- You may choose any cloud platform for deployment (default is IBM Cloud Foundry)
-- Depends on your deployment, you may choose any SQL database Django supported such as SQLite3, PostgreSQL, and MySQL (default is SQLite3)
+## 📌 Features
+- Added `Question`, `Choice`, and `Submission` models for exam functionality
+- Integrated exam creation and management through the Django admin site
+- Updated course detail pages to display questions and multiple-choice options
+- Implemented a submission view to handle learners’ exam answers
+- Added a result view and template to evaluate and display exam scores
 
-**ER Diagram**
-For your reference, we have prepared the ER diagram design for the new assesement feature.
+## 🛠️ Technologies Used
+- Backend: Django
+- Database: SQLite (default)
+- Frontend: Django Templates, HTML, CSS
+---
 
-![Onlinecourse ER Diagram](https://github.com/ibm-developer-skills-network/final-cloud-app-with-database/blob/master/static/media/course_images/onlinecourse_app_er.png)
+## 🚀 Getting Started
+
+### Prerequisites
+- Python (version 3.11 or later)
+- Django (version 3.2 or later) 
+- pip (Python package manager) 
+
+### Installation
+```bash
+# Clone the repo
+git clone https://github.com/NabilDa/django-course-final-project.git
+
+# Navigate to project folder
+cd django-course-final-project
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Run the Application
+# Apply migrations
+python manage.py migrate
+
+# Create a superuser to access the admin panel
+python manage.py createsuperuser
+
+# Run the server
+python manage.py runserver
+
+## 👨‍💻 Author
+Nabil Daoui – [LinkedIn](https://www.linkedin.com/in/nabil-d/) | [Portfolio](https://www.nabildaoui.tech/)
