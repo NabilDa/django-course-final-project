@@ -37,14 +37,16 @@ pip install -r requirements.txt
 ```
 
 ### Run the Application
-#### Apply migrations
+```bash
+# Apply migrations
 python manage.py migrate
 
-#### Create a superuser to access the admin panel
+# Create a superuser to access the admin panel
 python manage.py createsuperuser
 
-#### Run the server
+# Run the server
 python manage.py runserver
+```
 
 ## 👨‍💻 Author
 Nabil Daoui – [LinkedIn](https://www.linkedin.com/in/nabil-d/) | [Portfolio](https://www.nabildaoui.tech/)
