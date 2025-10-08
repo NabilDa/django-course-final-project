@@ -36,14 +36,14 @@ cd django-course-final-project
 pip install -r requirements.txt
 ```
 
-## Run the Application
-# Apply migrations
+### Run the Application
+#### Apply migrations
 python manage.py migrate
 
-# Create a superuser to access the admin panel
+#### Create a superuser to access the admin panel
 python manage.py createsuperuser
 
-# Run the server
+#### Run the server
 python manage.py runserver
 
 ## 👨‍💻 Author
